@@ -15,18 +15,11 @@ import { useStateValue } from "./StateProvider";
 import { onAuthStateChanged } from "firebase/auth";
 import Payment from "./Payment";
 import Orders from "./Orders";
-//constimport { loadStripe } from "@stripe/stripe-js";
-//import { Elements,PaymentElement } from "@stripe/react-stripe-js";
+
 import Async from "react-promise";
 var done = false;
 var val = null;
-// const promise = loadStripe(
-//   "pk_test_51KyH4gIAYWQydRzUp0M47hbXUIAdvFwG9gGsc3SmzmE4HZmAfgMJElI7EorLmPGABlWqZAnrFGjtsXrjmmVjRuMD004hWZmKtB"
-// );
-// promise.then((value) => {
-//   done = true;
-// });
-// console.log(promise);
+
 function App() {
   const [{}, dispatch] = useStateValue();
 
