@@ -2,7 +2,7 @@ import {initializeApp} from "firebase/app";
 import {getFirestore,collection,query, where,getDocs} from "firebase/firestore";
 import {getAuth,onAuthStateChanged} from "firebase/auth";
 const firebaseConfig = {
-  
+  //
 };
 
 //const firebaseApp = firebase.initialize(firebaseConfig);
